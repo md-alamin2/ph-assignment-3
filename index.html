@@ -10,18 +10,18 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
         tailwind.config = {
-          theme: {
-            extend: {
-              colors: {
-                clifford: '#da373d',
-                "first-color": '#FFF9F4',
-                "second-color": '#F9DF8A',
-                "accent": '#FFDC26',
-              }
+            theme: {
+                extend: {
+                    colors: {
+                        clifford: '#da373d',
+                        "first-color": '#FFF9F4',
+                        "second-color": '#F9DF8A',
+                        "accent": '#FFDC26',
+                    }
+                }
             }
-          }
         }
-      </script>
+    </script>
     <!-- font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -101,12 +101,13 @@
         <!-- hero section -->
         <section class="w-11/12 lg:container mx-auto relative">
             <div class="z-10 relative">
-                <h1 class="adlam-font text-3xl md:text-6xl max-w-[681px]">Pamper Your Pet, Because They Deserve the Bes</h1>
+                <h1 class="adlam-font text-3xl md:text-6xl max-w-[681px]">Pamper Your Pet, Because They Deserve the Bes
+                </h1>
                 <p class="text-xl text-gray-600 max-w-[672px] mt-4">Discover a world of treats, toys, and essentials
                     handpicked for your furry friends. Shop now and make tails wag with joy!</p>
                 <button class="text-xl bg-accent px-7 py-3 rounded-lg btn-ghost mt-6">Find a pet</button>
             </div>
-            <img class="w-full absolute top-44 lg:-top-32 z-0" src="assets/cat-big.png" alt="a big cat">
+            <img class="w-full absolute top-48 lg:-top-32 z-0" src="assets/cat-big.png" alt="a big cat">
         </section>
     </header>
 
@@ -154,6 +155,155 @@
                     <h4 class="adlam-font text-xl mt-6">Rabit</h4>
                     <p class="text-base mt-3">3 items</p>
                 </div>
+            </div>
+        </section>
+
+        <!-- Trending Products section-->
+        <section class="bg-first-color mt-32">
+            <div class="w-11/12 lg:container mx-auto py-36">
+                <h2 class="adlam-font text-4xl">Trending Pet Products</h2>
+                <!-- card container -->
+                <div class="grid grid-cols-2 lg:grid-cols-5 gap-6 mt-12">
+                    <!-- card1 -->
+                    <div class="bg-second-color px-8 pt-12 pb-32 md:py-12 relative rounded-lg col-span-2 row-span-3">
+                        <h1 class="adlam-font text-3xl max-w-[681px]">T- Shirt For Dogs</h1>
+                        <p class="text-xl text-gray-600 max-w-[334px] mt-4">Discover a world of treats, toys, and
+                            essentials handpicked for </p>
+                        <button class="text-xl bg-white px-7 py-3 rounded-lg btn-ghost mt-6">Shop Now</button>
+                        <img class="absolute bottom-0 -right-7 md:right-20" src="assets/cute-pet-small.png" alt="">
+                    </div>
+                    <!-- card2 -->
+                    <div class="bg-white flex items-center gap-4 p-2 lg:p-4 rounded-xl">
+                        <img class="bg-first-color p-3 md:p-5 rounded-2xl" src="assets/dog-cartoon.png" alt="">
+                        <div>
+                            <div class="flex items-center gap-2">
+                                <img src="assets/star.png" alt="">
+                                <p class="text-base">4.5</p>
+                            </div>
+                            <h5 class="text-sm md:text-xl font-medium">Per Bed</h5>
+                            <p class="text-sm lg:text-base font-medium">$39.99</p>
+                        </div>
+                    </div>
+                    <!-- card3 -->
+                    <div class="bg-white flex items-center gap-4 p-2 lg:p-4 rounded-xl">
+                        <img class="bg-first-color p-3 md:p-5 rounded-2xl" src="assets/fish-cartoon.png" alt="">
+                        <div>
+                            <div class="flex items-center gap-2">
+                                <img src="assets/star.png" alt="">
+                                <p class="text-base">4.5</p>
+                            </div>
+                            <h5 class="text-sm md:text-xl font-medium">Per Bed</h5>
+                            <p class="text-sm lg:text-base font-medium">$39.99</p>
+                        </div>
+                    </div>
+                    <!-- card4 -->
+                    <div class="bg-white flex items-center gap-4 p-2 lg:p-4 rounded-xl">
+                        <img class="bg-first-color p-3 md:p-5 rounded-2xl" src="assets/bird-cartoon.png" alt="">
+                        <div>
+                            <div class="flex items-center gap-2">
+                                <img src="assets/star.png" alt="">
+                                <p class="text-base">4.5</p>
+                            </div>
+                            <h5 class="text-sm md:text-xl font-medium">Per Bed</h5>
+                            <p class="text-sm lg:text-base font-medium">$39.99</p>
+                        </div>
+                    </div>
+                    <!-- card5 -->
+                    <div class="bg-white flex items-center gap-4 p-2 lg:p-4 rounded-xl">
+                        <img class="bg-first-color p-3 md:p-5 rounded-2xl" src="assets/rabbit-cartoon.png" alt="">
+                        <div>
+                            <div class="flex items-center gap-2">
+                                <img src="assets/star.png" alt="">
+                                <p class="text-base">4.5</p>
+                            </div>
+                            <h5 class="text-sm md:text-xl font-medium">Per Bed</h5>
+                            <p class="text-sm lg:text-base font-medium">$39.99</p>
+                        </div>
+                    </div>
+                    <!-- card6 -->
+                    <div class="bg-white flex items-center gap-4 p-2 lg:p-4 rounded-xl">
+                        <img class="bg-first-color p-3 md:p-5 rounded-2xl" src="assets/cat-cartoon.png" alt="">
+                        <div>
+                            <div class="flex items-center gap-2">
+                                <img src="assets/star.png" alt="">
+                                <p class="text-base">4.5</p>
+                            </div>
+                            <h5 class="text-sm md:text-xl font-medium">Per Bed</h5>
+                            <p class="text-sm lg:text-base font-medium">$39.99</p>
+                        </div>
+                    </div>
+                    <!-- card7 -->
+                    <div class="bg-white flex items-center gap-4 p-2 lg:p-4 rounded-xl">
+                        <img class="bg-first-color p-3 md:p-5 rounded-2xl" src="assets/mouse-cartoon.png" alt="">
+                        <div>
+                            <div class="flex items-center gap-2">
+                                <img src="assets/star.png" alt="">
+                                <p class="text-base">4.5</p>
+                            </div>
+                            <h5 class="text-sm md:text-xl font-medium">Per Bed</h5>
+                            <p class="text-sm lg:text-base font-medium">$39.99</p>
+                        </div>
+                    </div>
+                    <!-- card8 -->
+                    <div class="bg-white flex items-center gap-4 p-2 lg:p-4 rounded-xl">
+                        <img class="bg-first-color p-3 md:p-5 rounded-2xl" src="assets/pet-couch.png" alt="">
+                        <div>
+                            <div class="flex items-center gap-2">
+                                <img src="assets/star.png" alt="">
+                                <p class="text-base">4.5</p>
+                            </div>
+                            <h5 class="text-sm md:text-xl font-medium">Per Bed</h5>
+                            <p class="text-sm lg:text-base font-medium">$39.99</p>
+                        </div>
+                    </div>
+                    <!-- card9 -->
+                    <div class="bg-white flex items-center gap-4 p-2 lg:p-4 rounded-xl">
+                        <img class="bg-first-color p-3 md:p-5 rounded-2xl" src="assets/dog-cartoon.png" alt="">
+                        <div>
+                            <div class="flex items-center gap-2">
+                                <img src="assets/star.png" alt="">
+                                <p class="text-base">4.5</p>
+                            </div>
+                            <h5 class="text-sm md:text-xl font-medium">Per Bed</h5>
+                            <p class="text-sm lg:text-base font-medium">$39.99</p>
+                        </div>
+                    </div>
+                    <!-- card10 -->
+                    <div class="bg-white lg:flex items-center gap-4 p-2 lg:p-4 rounded-xl hidden">
+                        <img class="bg-first-color p-3 md:p-5 rounded-2xl" src="assets/bird-cartoon.png" alt="">
+                        <div>
+                            <div class="flex items-center gap-2">
+                                <img src="assets/star.png" alt="">
+                                <p class="text-base">4.5</p>
+                            </div>
+                            <h5 class="text-sm md:text-xl font-medium">Per Bed</h5>
+                            <p class="text-sm lg:text-base font-medium">$39.99</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- low Price section -->
+        <section class="w-11/12 lg:container mx-auto mt-36 mb-60">
+            <h2 class="adlam-font text-4xl">Everyday low Price</h2>
+            <!-- card container -->
+            <div class="grid grid-cols-1 lg:grid-cols-3 gap-6 mt-12">
+                <!-- card1 -->
+                <div class="bg-gradient-to-br from-pink-200 to-blue-300 pl-9 pt-9 pb-[400px] md:py-36 md:px-20 rounded-xl lg:col-span-2 relative">
+                    <p class="text-xl hidden md:block">Under Price</p>
+                    <h3 class="adlam-font text-3xl mt-3">Pet Grooming Mitt</h3>
+                    <p class="adlam-font text-2xl text-white hidden md:block mt-2">(Easy Hair Removal)</p>
+                    <p class="adlam-font text-6xl text-white md:text-black mt-4">$7.99</p>
+                    <img class="absolute -bottom-5 md:top-0 -right-10 md:right-0 lg:right-20" src="assets/cute-dog-mid.png" alt="">
+                </div>
+                <!-- card2 -->
+                <div class="bg-gradient-to-br from-first-color to-second-color pt-14 pb-96 md:pb-60 lg:pb-0 px-14 rounded-xl relative">
+                    <h3 class="adlam-font text-3xl">T-Shirt for Dogs</h3>
+                    <p class="adlam-font text-6xl text-accent mt-4">$7.99</p>
+                    <img class="absolute bottom-0 right-0 md:right-10 lg:right-0" src="assets/cute-pet-mid.png" alt="">
+                </div>
+            </div>
             </div>
         </section>
     </main>
