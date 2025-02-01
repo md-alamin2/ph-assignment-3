@@ -37,33 +37,6 @@
             font-family: "ADLaM Display", serif;
         }
     </style>
-    <style>
-        @keyframes typing {
-            0% {
-                width: 0;
-            }
-
-            50% {
-                width: 100%;
-            }
-
-            100% {
-                width: 0;
-            }
-        }
-
-        @keyframes blink {
-            50% {
-                border-color: transparent;
-            }
-        }
-
-        .animate-typing {
-            display: inline-block;
-            white-space: nowrap;
-            animation: typing 6s steps(110) infinite, blink 0.7s infinite;
-        }
-    </style>
 </head>
 
 <body class="sora-font">
@@ -131,11 +104,11 @@
             <div class="z-10 relative">
                 <h1 class="adlam-font text-3xl md:text-6xl max-w-[681px]">Pamper Your Pet, Because They Deserve the Bes
                 </h1>
-                <p class="text-base md:text-xl text-gray-600 mt-4 max-w-[672px]">Discover a world of treats, toys, and essentials
-                    handpicked for <br> your furry friends. Shop now and make tails wag with joy!</p>
-                <button class="text-base md:text-xl bg-accent px-7 py-3 rounded-lg btn-ghost mt-6 block">Find a pet</button>
+                <p class="text-base md:text-xl text-gray-600 mt-4 max-w-[672px] animate-pulse">Discover a world of treats, toys, and essentials
+                    handpicked for your furry friends. Shop now and make tails wag with joy!</p>
+                <button class="text-base md:text-xl bg-accent px-7 py-3 rounded-lg btn-ghost mt-6 block animate-bounce">Find a pet</button>
             </div>
-            <img class="w-full absolute top-48 lg:-top-32 z-0" src="assets/cat-big.png" alt="a big cat">
+            <img class="w-full absolute top-48 lg:-top-32 z-0 " src="assets/cat-big.png" alt="a big cat">
         </section>
     </header>
 
@@ -343,7 +316,7 @@
             <div class="flex justify-between">
                 <h2 class="adlam-font text-2xl md:text-4xl">Pet Foods</h2>
                 <!-- btn container -->
-                <div class="flex gap-2">
+                <div class="hidden md:flex gap-2">
                     <!-- left arrow btn -->
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
                         stroke="currentColor" class="size-12 bg-accent px-2 py-1 rounded-full hover:bg-gray-200">
